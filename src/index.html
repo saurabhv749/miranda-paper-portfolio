@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miranda</title>
+    <link rel="stylesheet" href="./css/pure-min.css" />
+    <!-- <link rel="stylesheet" href="grids-responsive-min.css" /> -->
+    <link rel="stylesheet" href="./sass/reset.scss" />
+    <link rel="stylesheet" href="./sass/style.scss" />
+    <link rel="stylesheet" href="./css/splide.min.css" />
+  </head>
+
+  <body>
+    <header id="header-main">
+      <div class="container">
+        <div class="loc">Amsterdam,NL</div>
+        <div class="logo"><a href="/">The Paper Portfolio</a></div>
+        <div class="hamburger" id="open-nav"></div>
+      </div>
+    </header>
+    <!-- canvas -->
+    <div class="backdrop">
+      <header>
+        <div class="container">
+          <div class="loc">Amsterdam,NL</div>
+          <div class="logo"><a href="/">The Paper Portfolio</a></div>
+          <div class="hamburger" id="close-nav"></div>
+        </div>
+      </header>
+      <div class="nav">
+        <div class="cover">
+          <div class="nav-link">INDEX</div>
+        </div>
+        <div class="cover">
+          <div class="nav-link">WORK</div>
+        </div>
+        <div class="cover">
+          <div class="nav-link">ABOUT</div>
+        </div>
+        <div class="links">
+          <p>TWITTER</p>
+          <p>INSTAGRAM</p>
+          <p>DRIBBLE</p>
+          <p>BEHANCE</p>
+        </div>
+      </div>
+
+      <div class="canvas">
+        <svg
+          id="gl"
+          class="waves"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 25 150 28"
+          preserveAspectRatio="none"
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+
+          <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" />
+            <use xlink:href="#gentle-wave" x="48" y="3" />
+            <use xlink:href="#gentle-wave" x="48" y="5" />
+            <use xlink:href="#gentle-wave" x="48" y="7" />
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div id="viewport">
+      <!-- header -->
+      <main class="container">
+        <div class="content">
+          <!-- carousel -->
+          <section
+            id="image-carousel"
+            class="splide"
+            aria-label="Beautiful Images"
+          >
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="img/gal1.jpeg" alt="carousel" class="pure-img" />
+                  <h2>SAL PARASUCO</h2>
+                  <p>
+                    Sal Parasuco is a digital eCommerce experience providing
+                    luxury outwear garments for the modern entity.
+                  </p>
+                </li>
+                <li class="splide__slide">
+                  <img src="img/gal2.jpeg" alt="carousel" class="pure-img" />
+                  <h2>BOOKS OF YE</h2>
+                  <p>
+                    The Books of Ye is a conceptual NFT web experience depicting
+                    the five Books of Moses, in which each instance of God is
+                    replaced with Ye (Kanye West).
+                  </p>
+                </li>
+                <li class="splide__slide">
+                  <img src="img/gal3.jpeg" alt="carousel" class="pure-img" />
+                  <h2>OM SWAMI</h2>
+                  <p>
+                    Om Swami is a spiritual leader, bestselling author and
+                    serial entrepreneur who resides in the Himalayan foothills.
+                  </p>
+                </li>
+
+                <li class="splide__slide works-container">
+                  <h1 class="works-title">All WORK!</h1>
+                  <h2 class="works-subtitle">
+                    A Featured selection<br />the latest work –<br />of the last
+                    years.
+                  </h2>
+                  <p class="help">
+                    <span class="tip">TIP !</span>Drag sideways to navigate.
+                  </p>
+                </li>
+                <li class="splide__slide">
+                  <img src="img/gal4.jpeg" alt="carousel" class="pure-img" />
+                  <h2>PRADA</h2>
+                  <p>
+                    Prada Employees online store is an eCommerce outlet
+                    gathering previous Prada's collection seasons on a
+                    minimalist-based design.
+                  </p>
+                </li>
+
+                <li class="splide__slide">
+                  <img src="img/gal5.jpeg" alt="carousel" class="pure-img" />
+                  <h2>CHIARA LUZZANA</h2>
+                  <p>
+                    Chiara Luzzana is an award-winning Sound Designer focused on
+                    Sound Design, Music Composition, Sound Branding, Soundtrack
+                    and Audio Installations.
+                  </p>
+                </li>
+
+                <li class="splide__slide">
+                  <img src="img/gal6.jpeg" alt="carousel" class="pure-img" />
+                  <h2>AQUERONE</h2>
+                  <p>
+                    Fusing plant-based wellness with a high-design aesthetic,
+                    Aquerone is Europe's first luxury CBD and cannabis lifestyle
+                    concept store.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- title -->
+          <section class="site-title">
+            <h1>MIRANDA</h1>
+          </section>
+
+          <!-- poster -->
+          <section class="poster">
+            <div class="pure-g">
+              <div class="pure-u-1-3 poster-item left">
+                <h2 class="poster-title">INTERACTIVE</h2>
+                <h2 class="poster-title">ARTIST!</h2>
+                <img class="pure-img" src="img/poster1.jpeg" />
+                <p class="poster-para">
+                  As a multidisciplinary freelancer, I'm passionate about
+                  creating iconic digital experiences through motion,
+                  typography, and creative coding for companies and agencies
+                  around the world.
+                </p>
+              </div>
+              <div class="pure-u-2-3 poster-item right">
+                <img class="pure-img" src="img/poster2.jpeg" />
+                <h2 class="poster-title">DIGITAL ART DIRECTOR</h2>
+                <h2 class="poster-title">INTERACTIVE DESIGNER</h2>
+                <h2 class="poster-title">CREATIVE DEVELOPER</h2>
+                <h2 class="poster-title">BASED IN AMSTERDAM,NL.</h2>
+              </div>
+            </div>
+          </section>
+          <!-- website -->
+          <div class="website">
+            <div class="website-title">
+              <div class="site-title">
+                <h1>WEBSITE</h1>
+              </div>
+            </div>
+
+            <div class="website-image">
+              <img src="img/signature.png" alt="signature" class="pure-img" />
+            </div>
+          </div>
+          <!-- works -->
+          <section class="work">
+            <div class="pure-g">
+              <div class="pure-u-2-3 work-left">
+                <div class="pure-g top">
+                  <div class="pure-u-1-2 work-left-a">
+                    <p class="title">LATEST WORK!</p>
+                    <p class="subtitle">
+                      Fresh entry- A selected work from the latest digital
+                      releases.
+                    </p>
+                    <p class="help">
+                      <span class="tip">tip!</span> Click on image to explore.
+                    </p>
+                  </div>
+                  <div class="pure-u-1-2 work-left-b">
+                    <img src="img/work1.jpeg" alt="work" class="pure-img" />
+                    <p class="title">THINKERS <span class="new">NEW</span></p>
+                    <p>
+                      Thinkers is an experimental e-learning platform that
+                      offers a wide variety of creative masterclass by
+                      award-winning digital thinkers on the Awwwards community.
+                    </p>
+                  </div>
+                </div>
+
+                <img src="img/work2.jpeg" alt="work" class="pure-img" />
+              </div>
+
+              <div class="pure-u-1-3 work-right">
+                <p class="title">THINK, CREATE</p>
+                <p class="subtitle">DELIVER</p>
+                <p class="para-a">
+                  A strong project is created by deep collaboration. I design,
+                  develop, and deliver websites that drive results and win
+                  awards.
+                </p>
+                <p class="para-b">
+                  Like an artisan, I like to start from raw matter and give life
+                  to an iconic product that makes your brand stand out, starting
+                  from a Visual Strategy that guide the client’s vision to
+                  reality.
+                </p>
+                <!-- all work button -->
+                <div class="oval">
+                  <div class="items">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="5vw"
+                      height="5vw"
+                      fill="currentColor"
+                      class="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      />
+                    </svg>
+                    <div>WORKS</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- awards -->
+          <section class="awards">
+            <div class="pure-g">
+              <div class="pure-u-1-4 card">
+                <div class="info">
+                  <p class="honour">SITE OF THE DAY</p>
+                  <p class="type">AWARDS</p>
+                </div>
+                <p class="count">9</p>
+              </div>
+              <div class="pure-u-1-4 card">
+                <div class="info">
+                  <p class="honour">SITE OF THE MONTH</p>
+                  <p class="type">WINNERS</p>
+                </div>
+                <p class="count">1</p>
+              </div>
+              <div class="pure-u-1-4 card">
+                <div class="info">
+                  <p class="honour">FWA OF THE DAY</p>
+                  <p class="type">AWARDS</p>
+                </div>
+                <p class="count">6</p>
+              </div>
+              <div class="pure-u-1-4 card">
+                <div class="info">
+                  <p class="honour">ACCLAIMED</p>
+                  <p class="type">MENTIONS</p>
+                </div>
+                <p class="count">8</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- pixel perfect -->
+          <section class="hero">
+            <div class="pure-g">
+              <div class="pure-u-1-2">
+                <div class="top">
+                  <img src="img/hero1.jpeg" alt="" class="pure-img" />
+                  <p class="title">THE</p>
+                </div>
+                <div class="bottom">
+                  <p class="title">PIXEL</p>
+                </div>
+              </div>
+              <div class="pure-u-1-2 right">
+                <img src="img/hero2.jpeg" alt="" />
+              </div>
+            </div>
+
+            <div class="pure-g">
+              <div class="pure-u-1-5">
+                <img src="img/hero3.jpeg" alt="" />
+              </div>
+              <p class="pure-u-4-5 title">PERFECT</p>
+            </div>
+
+            <div class="pure-g">
+              <div class="pure-u-3-5 title artisan">ARTISAN</div>
+              <div class="pure-u-2-5">
+                <p class="hero-para">
+                  Over the past 3+ years, I've teamed up with high-profile
+                  clients and partners globally earning mentions & awards from
+                  digital platforms like The FWA,
+                </p>
+                <p class="hero-t">AWWWARDS</p>
+                <p class="hero-para">
+                  Communication Arts, Site Inspire, Behance, Codrops and many
+                  others.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- reviews -->
+          <section class="reviews">
+            <div class="card">
+              <div class="content">
+                <p class="review">
+                  “Blurring the line between design & dev, Niccolo has an
+                  umatched eye for detail and precise execution in his work
+                  which pushes the whole industry forward”
+                </p>
+                <div class="reviewer">
+                  <div class="avatar">
+                    <img src="img/user1.jpg" alt="" class="avatar" />
+                  </div>
+                  <div class="info">
+                    <p class="user">SAM DAY</p>
+                    <p class="pos">Creative Director & Designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <p class="review">
+                  "Niccolò‘s eye for detail & design as well as his impeccable
+                  aesthetics, make him one of the leaders in today’s digital
+                  design scene"
+                </p>
+                <div class="reviewer">
+                  <div class="avatar">
+                    <img src="img/user2.jpg" alt="" class="avatar" />
+                  </div>
+                  <div class="info">
+                    <p class="user">SOFIA PAPADOPOULOU</p>
+                    <p class="pos">Designer & Art Director</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <p class="review">
+                  "A very promising Creative Director and Interactive Designer
+                  given his natural aesthetic taste and innate instinct for
+                  functionality"
+                </p>
+                <div class="reviewer">
+                  <div class="avatar">
+                    <img src="img/user4.jpg" alt="" class="avatar" />
+                  </div>
+                  <div class="info">
+                    <p class="user">ENEA ROSSI</p>
+                    <p class="pos">Co-Founder @Adoratorio</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <p class="review">
+                  "High-skilled designer who creates novel experiences with ease
+                  and craft. His signature is more vivid on each new project he
+                  launches and this is only the start"
+                </p>
+                <div class="reviewer">
+                  <div class="avatar">
+                    <img src="img/user3.jpg" alt="" class="avatar" />
+                  </div>
+                  <div class="info">
+                    <p class="user">BRUNO ARIZIO</p>
+                    <p class="pos">Creative Director @StudioBA</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- projects nav -->
+          <section class="projects">
+            <div class="left">
+              <img src="img/project1.jpeg" alt=project"" class="pure-img">
+              <p class="title">OM SWAMI <span class="new">NEW</span></p>
+              <p>
+                Om Swami is a spiritual leader, bestselling author and serial
+                entrepreneur who resides in the Himalayan foothills.
+              </p>
+            </div>
+            <div class="center">
+              <p class="title">ALL WORK!</p>
+              <p class="subtitle">
+                A featured work selection - spanning the last few years.
+              </p>
+              <p class="help">
+                <span class="tip">TIP!</span> Click to navigate.
+              </p>
+            </div>
+            <div class="right">
+              <img src="img/project2.jpeg" alt=project"" class="pure-img">
+              <p class="title">BOOKS OF YE <span class="new">NEW</span></p>
+              <p>
+                The Books of Ye is a conceptual NFT web experience depicting the
+                five Books of Moses, in which each instance of God is replaced
+                with Ye (Kanye West).
+              </p>
+            </div>
+          </section>
+
+          <!-- banner -->
+          <section class="banner">
+            <div class="track">
+              <div class="item">
+                <p class="text">Let's create something together</p>
+                <p class="mail">EMAIL ME</p>
+              </div>
+              <div class="item">
+                <p class="text">Let's create something together</p>
+                <p class="mail">EMAIL ME</p>
+              </div>
+            </div>
+          </section>
+          <!-- footer -->
+          <footer>
+            <div class="logo">
+              <p class="comp">MIRANDA &copy;</p>
+              <a href="##"> Legal </a>
+            </div>
+            <ul class="links">
+              <li>TWITTER</li>
+              <li>INSTAGRAM</li>
+              <li>DRIBBLE</li>
+              <li>BEHANCE</li>
+            </ul>
+          </footer>
+        </div>
+      </main>
+      <script type="module" src="./js/app.js"></script>
+    </div>
+  </body>
+</html>
